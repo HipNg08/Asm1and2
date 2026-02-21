@@ -4,16 +4,16 @@ def main():
     products = load_data()
 
     while True:
-        print("\n" + "*"*30)
-        print("  HỆ THỐNG QUẢN LÝ LAPTOP POLY-LAP")
-        print("*"*30)
+        print("\n" + "*"*34)
+        print(" HỆ THỐNG QUẢN LÝ LAPTOP POLY-LAP")
+        print("*"*34)
         print("1. Hiển thị danh sách sản phẩm")
         print("2. Thêm sản phẩm mới")
         print("3. Tìm kiếm sản phẩm theo tên")
         print("4. Cập nhật thông tin sản phẩm")
         print("5. Xóa sản phẩm theo ID")
         print("6. Lưu dữ liệu & Thoát")
-        print("*"*30)
+        print("*"*34)
 
         choice = input("Mời bạn chọn chức năng (1-6): ")
 

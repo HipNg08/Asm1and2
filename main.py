@@ -1,0 +1,44 @@
+from product_manager import *
+
+def main():
+    products = load_data()
+
+    while True:
+        print("\n" + "*"*30)
+        print("  HỆ THỐNG QUẢN LÝ LAPTOP POLY-LAP")
+        print("*"*30)
+        print("1. Hiển thị danh sách sản phẩm")
+        print("2. Thêm sản phẩm mới")
+        print("3. Tìm kiếm sản phẩm theo tên")
+        print("4. Cập nhật thông tin sản phẩm")
+        print("5. Xóa sản phẩm")
+        print("6. Lưu dữ liệu & Thoát")
+        print("*"*30)
+
+        choice = input("Mời bạn chọn chức năng (1-6): ")
+
+        if choice == "1":
+            display_all_products(products)
+
+        elif choice == "2":
+            products = add_product(products)
+
+        elif choice == "3":
+            search_product_by_name(products)
+
+        elif choice == "4":
+            products = update_product(products)
+
+        elif choice == "5":
+            products = delete_product(products)
+
+        elif choice == "6":
+            save_data(products)
+            print(">> Thoát chương trình.")
+            break
+
+        else:
+            print(">> Lựa chọn không hợp lệ!")
+
+if __name__ == "__main__":
+    main()

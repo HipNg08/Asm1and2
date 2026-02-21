@@ -1,5 +1,3 @@
-# update h5
-
 from product_manager import *
 
 def main():

@@ -11,7 +11,7 @@ def main():
         print("2. Thêm sản phẩm mới")
         print("3. Tìm kiếm sản phẩm theo tên")
         print("4. Cập nhật thông tin sản phẩm")
-        print("5. Xóa sản phẩm")
+        print("5. Xóa sản phẩm theo ID")
         print("6. Lưu dữ liệu & Thoát")
         print("*"*30)
 

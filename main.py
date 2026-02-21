@@ -34,11 +34,11 @@ def main():
 
         elif choice == "6":
             save_data(products)
-            print(">> Đã thoát chương trình. Cảm ơn bạn đã sử dụng ❤️ ")
+            print("Đã thoát chương trình. Cảm ơn bạn đã sử dụng ❤️ ")
             break
 
         else:
-            print(">> Lựa chọn không hợp lệ!. Hãy thử lại")
+            print("Lựa chọn không hợp lệ!. Hãy thử lại")
 
 if __name__ == "__main__":
     main()

@@ -38,7 +38,7 @@ def main():
             break
 
         else:
-            print(">> Lựa chọn không hợp lệ!")
+            print(">> Lựa chọn không hợp lệ!. Hãy thử lại")
 
 if __name__ == "__main__":
     main()

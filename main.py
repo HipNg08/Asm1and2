@@ -34,7 +34,7 @@ def main():
 
         elif choice == "6":
             save_data(products)
-            print(">> Thoát chương trình.")
+            print(">> Đã thoát chương trình. Cảm ơn bạn đã sử dụng ❤️ ")
             break
 
         else:

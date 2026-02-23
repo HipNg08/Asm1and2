@@ -12,7 +12,7 @@ def load_data():
         print(">> Chưa có file dữ liệu. Tạo mới danh sách.")
         return []
 
-
+# h3
 def save_data(products):
     try:
         with open(DB_FILE, 'w', encoding='utf-8') as f:

@@ -18,7 +18,7 @@ def save_data(products):
         with open(DB_FILE, 'w', encoding='utf-8') as f:
            
             json.dump(products, f)
-        print(">> Đã lưu dữ liệu thành công!")
+        print(">> ")
     except Exception as e:
         print(f"Lỗi khi lưu file: {e}")
 
